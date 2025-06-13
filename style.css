@@ -1,22 +1,22 @@
 .CarregamentoBody {
     background-color: black;
     align-items: center;
-    }
+}
 
 .FotoWindows {
     display: flex;
     margin: 0 auto;
     margin-top: 100px;
-    width: 200px;      
-    height: auto; 
+    width: 200px;
+    height: auto;
 }
 
 .carregamento {
     display: flex;
     margin: 0 auto;
     margin-top: 50px;
-    width: 50px;      
-    height: auto; 
+    width: 50px;
+    height: auto;
 }
 
 /* --------------------------------------------------------------------------------- */
@@ -33,9 +33,9 @@
 
 .horario h1 {
     text-align: center;
-    font-weight: bold;
+    font-weight: 500;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 100px;
     margin-bottom: auto;
     margin-top: 40px;
@@ -44,27 +44,28 @@
 .horario p {
     text-align: center;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     font-weight: 500;
     margin-top: auto;
 }
 
 a.linkcheio {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      z-index: 9999;
-      display: block;
-      text-decoration: none;
-      cursor: default;
-    }
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    display: block;
+    text-decoration: none;
+    cursor: default;
+}
 
 /* ---------------------------------------------------------------------------- */
 
- .LoginBody {
+.LoginBody {
+    position: fixed;
     margin: 0;
     height: 100%;
     display: flex;
@@ -77,21 +78,24 @@ a.linkcheio {
     background-size: 100% 100%
 }
 
- .LoginBody::before {
-      content: "";
-      position: fixed; 
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: inherit; 
-      filter: brightness(80%) blur(10px);
-      z-index: -1; 
-    }
+.LoginBody::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: brightness(80%) blur(10px);
+    z-index: -1;
+}
 
 
 .perfil {
-    width: 150px;          
-    height: 150px;  
-    margin-top: 400px;      
-    background-color: rgba(255, 255, 255, 0.24); 
+    width: 150px;
+    height: 150px;
+    margin-top: 400px;
+    background-color: rgba(255, 255, 255, 0.24);
     border-radius: 50%;
     position: absolute;
     z-index: 2;
@@ -106,56 +110,80 @@ a.linkcheio {
 }
 
 .input {
-    margin-top: 670px;
-    color: black;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-top: 700px;
+    margin-left: 35px;
+    height: 30px;
+    width: 250px;
     position: absolute;
+    position: relative;
     z-index: 4;
-    border: rgba(0, 0, 0, 0.79);
-    border-width: 20px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
 .input input {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    position: relative;
+    border: none;
+    outline: none;
     background-color: rgba(0, 0, 0, 0.79);
-    color: rgb(255, 255, 255);
-    border: rgba(0, 0, 0, 0.79);
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+
 .inputbotao {
-    background-color: rgba(0, 0, 0, 0.79);
-    color: rgb(255, 255, 255);
-    border: rgba(0, 0, 0, 0.42);
-    size: 2000px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+    right: 4;
+    background-color: #050b3d;
+    position: absolute;
+    color: white;
+    border: none;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .inputbotao:hover {
     background-color: rgb(28, 84, 238);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.input input:focus {
-  outline: none; /* remove o contorno branco */
-}
-
-.usuario{
+.usuario {
     text-align: center;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-    margin-top: 610px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 630px;
     position: absolute;
     z-index: 4;
+    font-weight: 500;
 }
 
-.botoes{
+.botoes {
     width: auto;
     height: 50px;
     margin-top: 1100px;
     margin-left: 1150px;
     position: absolute;
     z-index: 4;
+    padding-bottom: 1px;
 }
 
-.botoes:hover{
+.botoes:hover {
     background-color: rgba(253, 253, 253, 0.121);
     width: 75px;
     height: 50px;
@@ -177,11 +205,489 @@ a.linkcheio {
 }
 
 .barradetarefas {
-    width: 1280px;          
-    height: 40px;  
-    margin-top: 1129px;      
-    background-color: rgb(234, 234, 234); 
-    position: absolute;
-    z-index: 2;
+    border-top: solid rgb(197, 197, 197);
+    width: 1280px;
+    height: 40px;
+    bottom: 0;
+    background-color: rgba(238, 238, 238, 255);
+    position: fixed;
+    z-index: 4;
 }
 
+.arquivos {
+    align-items: center;
+    margin-left: 640px;
+    margin-top: 3px;
+    height: auto;
+    position: absolute;
+    z-index: 4;
+    background-color: rgba(238, 238, 238, 255);
+    width: 25px;
+    padding: 4px;
+    padding-bottom: 6px;
+    padding-top: 5px;
+}
+
+.arquivos:hover {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.046);
+    border-radius: 2px;
+}
+
+.arquivos:active {
+    width: 20px;
+    height: auto;
+    border-radius: 2px;
+    padding: 7px;
+}
+
+
+
+.coisa {
+    align-items: center;
+    margin-left: 560px;
+    margin-top: 3px;
+    height: auto;
+    width: 25px;
+    position: absolute;
+    z-index: 4;
+    background-color: rgba(238, 238, 238, 255);
+    padding: 4px;
+    padding-bottom: 6px;
+    padding-top: 5px;
+}
+
+.coisa:hover {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.046);
+    border-radius: 2px;
+}
+
+.coisa:active {
+    width: 20px;
+    height: auto;
+    border-radius: 2px;
+    padding: 7px;
+}
+
+.crome {
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 3px;
+    height: auto;
+    width: 25px;
+    position: absolute;
+    z-index: 4;
+    background-color: rgba(238, 238, 238, 255);
+    padding: 4px;
+    padding-bottom: 6px;
+    padding-top: 5px;
+}
+
+.crome:hover {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.046);
+    border-radius: 2px;
+}
+
+.crome:active {
+    width: 20px;
+    height: auto;
+    border-radius: 2px;
+    padding: 7px;
+}
+
+.crome title{
+
+    font-size: 1000px;
+}
+
+.microsoftstore {
+    align-items: center;
+    margin-left: 680px;
+    margin-top: 3px;
+    height: auto;
+    width: 22px;
+    position: absolute;
+    z-index: 4;
+    background-color: rgba(238, 238, 238, 255);
+    padding: 4px;
+    padding-bottom: 6px;
+    padding-top: 4px;
+}
+
+.microsoftstore:hover {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.046);
+    border-radius: 2px;
+}
+
+.microsoftstore:active {
+    width: 18px;
+    height: auto;
+    border-radius: 2px;
+    padding: 6px;
+}
+
+.vscode {
+    align-items: center;
+    margin-left: 715px;
+    margin-top: 3px;
+    height: auto;
+    width: 25px;
+    position: absolute;
+    z-index: 4;
+    background-color: rgba(238, 238, 238, 255);
+    padding: 4px;
+    padding-bottom: 6px;
+    padding-top: 4px;
+}
+
+.vscode:hover {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.046);
+    border-radius: 2px;
+}
+
+.vscode:active {
+    width: 20px;
+    height: auto;
+    border-radius: 2px;
+    padding: 7px;
+}
+
+.windows {
+    align-items: center;
+    margin-left: 520px;
+    margin-top: 4px;
+    height: auto;
+    width: 22px;
+    position: absolute;
+    z-index: 4;
+    background-color: rgba(238, 238, 238, 255);
+    padding: 6px;
+}
+
+.windows:hover {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.046);
+    border-radius: 2px;
+}
+
+.windows:active {
+    width: 17px;
+    height: auto;
+    border-radius: 2px;
+    padding: 9px;
+}
+
+.data {
+    align-items: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 4px;
+    font-size: 11px;
+    cursor: default;
+    padding: 4px;
+    padding-top: 1px;
+    padding-right: 8px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    background-color: rgba(238, 238, 238, 255);
+    border-radius: 2px;
+    z-index: 1;
+    text-align: right;
+}
+
+
+
+.data:hover {
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.046);
+    border-radius: 2px;
+}
+
+.data:active {
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.hora:active {
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.minecraft {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 2px;
+    padding: 10px;
+    padding-bottom:45px;
+}
+
+.canva {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    margin-top: 130px;
+    margin-left: 20px;
+    border-radius: 2px;
+    padding: 10px;
+    padding-bottom:45px;
+}
+
+.valorant {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 2px;
+    padding: 10px;
+    padding-bottom: 45px;
+}
+
+.minetexto {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 90px;
+    margin-left: 34px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    font-size: 10px;
+    z-index: 1;
+    cursor: default;
+    pointer-events: none
+}
+
+.valoranttexto {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 90px;
+    margin-left: 116px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 20px rgb(0, 0, 0);
+    font-size: 10px;
+    z-index: 1;
+    cursor: default;
+    pointer-events: none
+}
+
+.canvatexto {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 200px;
+    margin-left: 41px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 20px rgb(0, 0, 0);
+    font-size: 10px;
+    z-index: 1;
+    cursor: default;
+    pointer-events: none
+}
+
+.setinha {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 71px;
+    margin-left: 71px;
+    width: 12px;
+    height: auto;
+    z-index: 3;
+    pointer-events: none
+}
+
+.setinha1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 181px;
+    margin-left: 71px;
+    width: 12px;
+    height: auto;
+    z-index: 3;
+    pointer-events: none
+}
+
+.setinha2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-top: 71px;
+    margin-left: 151px;
+    width: 12px;
+    height: auto;
+    z-index: 3;
+    pointer-events: none
+}
+
+.minecraft:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.valorant:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.canva:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nuvem {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: auto;
+    margin-right: 160px;
+    margin-bottom: 7px;
+    cursor: default;
+    padding: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: rgba(0, 0, 255, 0);
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.nuvem:hover{
+    background-color: rgb(247, 247, 247);
+}
+
+.seta {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 17px;
+    height: auto;
+    margin-right: 220px;
+    margin-bottom: 7px;
+    cursor: default;
+    padding: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: rgba(0, 0, 255, 0);
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.seta:hover{
+    background-color: rgb(247, 247, 247);
+}
+
+.bateriasomnet {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    height: auto;
+    margin-right: 80px;
+    margin-bottom: 7px;
+    cursor: default;
+    padding: 4px;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    z-index: 1;
+}
+
+.bateriasomnet:hover{
+    background-color: rgb(247, 247, 247);
+}
+
+.setaredonda {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: auto;
+    margin-right: 190px;
+    margin-bottom: 8px;
+    cursor: default;
+    padding: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.setaredonda:hover{
+    background-color: rgb(247, 247, 247);
+}
+
+
+/* ------------------------------------------------------------------------------------------------ */
+
+.Telaazul {
+    background-color: rgba(0,120,215,255);
+    position: fixed;
+}
+
+.carinha {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 150px;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.descricao {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 500px;
+}
+
+.coiso {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 10px;
+    font-weight: 200;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 500px;
+    z-index: 1;
+}
+
+.porcento {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 500px;
+}
+
+.qrcode {
+    margin-left: 100px;
+    margin-bottom: ;
+    z-index: 3;
+}
