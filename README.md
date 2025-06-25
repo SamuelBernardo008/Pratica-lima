@@ -1,2 +1,9 @@
 # pratica_lima
-Repositório modelo para a prática das linguagens de marcação HTML e CSS.
+Este projeto tem como principal objetivo demonstrar, de forma prática e visual, os conhecimentos adquiridos em HTML e CSS durante os estudos iniciais de desenvolvimento web. A ideia foi construir uma página simples, porém funcional, que servisse como exercício de fixação dos conceitos fundamentais de estruturação de conteúdo, aplicação de estilos e organização de elementos visuais. O layout, a escolha das cores e a disposição dos elementos foram pensados para exercitar tanto a estética quanto a lógica por trás de uma interface básica de site.
+
+A construção da página foi realizada utilizando apenas HTML e CSS puro, sem o uso de frameworks ou bibliotecas externas, a fim de fortalecer a compreensão da base do front-end. Durante o desenvolvimento, foram aplicadas tags semânticas, estilizações com flexbox, manipulação de imagens e links, além de técnicas básicas de responsividade. Todo o conteúdo foi hospedado no GitHub Pages, facilitando o acesso público ao resultado final e incentivando a prática de versionamento com Git.
+
+Mais do que apenas um exercício técnico, o projeto também reflete a evolução pessoal e criativa do desenvolvedor, ao explorar elementos visuais e de organização que tornam a página mais intuitiva e agradável. Ele representa um passo importante no processo de aprendizado, sendo uma base sólida para a criação de projetos mais complexos no futuro. Além disso, reforça a importância da prática constante no desenvolvimento de habilidades na área de tecnologia.
+
+
+[acesse aqui a página inicial do projeto](https://samuelbernardo008.github.io/Pratica-lima/)
